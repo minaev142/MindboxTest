@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11925872-AD79-4659-94B8-9575656679C8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculation.Geometries", "src\AreaCalculation.Geometries\AreaCalculation.Geometries.csproj", "{46054FF4-0928-4769-A062-5222133BD05C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53EA8C56-5A9F-40D6-8B89-0EE734A9C4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculation.Geometries.Tests", "Tests\AreaCalculation.Geometries.Tests\AreaCalculation.Geometries.Tests.csproj", "{303B4BDC-700C-443A-BCC7-7B936C6F61B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B003493D-498A-4BF7-8521-E930DCB9D39E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{D6F32D70-70E2-47BA-A53B-476B014D380E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculation", "nuget\AreaCalculation\AreaCalculation.csproj", "{7B12C143-1C7F-4D9B-A88F-598E1BF78457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46054FF4-0928-4769-A062-5222133BD05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46054FF4-0928-4769-A062-5222133BD05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46054FF4-0928-4769-A062-5222133BD05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46054FF4-0928-4769-A062-5222133BD05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303B4BDC-700C-443A-BCC7-7B936C6F61B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303B4BDC-700C-443A-BCC7-7B936C6F61B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303B4BDC-700C-443A-BCC7-7B936C6F61B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303B4BDC-700C-443A-BCC7-7B936C6F61B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B12C143-1C7F-4D9B-A88F-598E1BF78457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B12C143-1C7F-4D9B-A88F-598E1BF78457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B12C143-1C7F-4D9B-A88F-598E1BF78457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B12C143-1C7F-4D9B-A88F-598E1BF78457}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46054FF4-0928-4769-A062-5222133BD05C} = {B003493D-498A-4BF7-8521-E930DCB9D39E}
+		{303B4BDC-700C-443A-BCC7-7B936C6F61B7} = {53EA8C56-5A9F-40D6-8B89-0EE734A9C4D6}
+		{7B12C143-1C7F-4D9B-A88F-598E1BF78457} = {D6F32D70-70E2-47BA-A53B-476B014D380E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8814E32B-697F-453A-B717-34A57E804E37}
+	EndGlobalSection
+EndGlobal
